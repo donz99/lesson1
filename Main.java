@@ -62,10 +62,95 @@ public class Main {
 
 
         //Begin 9 Даны два неотрицательных числа a и b. Найти их среднее геометрическое, то есть квадратный корень из их произведения: √a·b
-        int a = 5;
-        int b = 2;
-        int x = math.sqr(a * b);
-        System.out.println(x);
+        /*double a = 5;
+        double b = 2.3;
+        double g_avg = Math.sqrt(a * b);
+        System.out.println(g_avg);
+
+         */
+
+        //Begin 10 Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов
+        /*
+        double a = 5;
+        double b = 3;
+        double c = a*a + b*b;
+        System.out.println(c);
+        с = a*a - b*b;
+        System.out.println(c);
+        с = (a*a) * (b*b);
+        System.out.println(c);
+        с = (a*a) / (b*b);
+        System.out.println(c);
+
+         */
+
+        //Begin 11 Даны два ненулевых числа. Найти сумму, разность, произведение и частное их модулей.
+        /*
+        int a = -5;
+        int b = 24;
+        a = Math.abs(a);
+        b = Math.abs(b);
+        double s = a + b;
+        System.out.println("Сумма модулей " + (int)s);
+        s = a - b;
+        System.out.println("Разность модулей " + (int)s);
+        s = a * b;
+        System.out.println("Произведение модулей " + (int)s);
+        s = (double)a / b;
+        System.out.println("Частное модулей " + s);
+
+         */
+        //Begin 22 Поменять местами содержимое переменных A и B и вывести новые значения A и B
+        /*
+        int a = 3;
+        int b = 10;
+        int c = a;
+        a = b;
+        b = c;
+        System.out.println("a = " + a + " b = " + b);
+
+               */
+        // Begin 12 Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P:/ c =√a2 + b2  P = a + b + c.
+        /*
+        double a = 3;
+        int b = 5;
+        double c = Math.sqrt(a*a+b*b);
+        double P = a + b + c;
+        System.out.println(c);
+        System.out.println(P);
+
+         */
+
+        // Begin 13 Даны два круга с общим центром и радиусами R1 и R2 (R1 > R2).
+        //Найти площади этих кругов S1 и S2, а также площадь S3 кольца, внешний
+        //радиус которого равен R1, а внутренний радиус равен R2:
+        //S1 = π·(R1)
+        //2
+        //, S2 = π·(R2)
+        //2
+        //, S3 = S1 − S2.
+
+        int r = 2;
+        int R = 3;
+        final double pi = 3.14;
+        double s = pi*r*r;
+        System.out.println(s);
+        double S = pi*R*r;
+        System.out.println(S);
+        double O = s - S;
+        System.out.println(O);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         //2
